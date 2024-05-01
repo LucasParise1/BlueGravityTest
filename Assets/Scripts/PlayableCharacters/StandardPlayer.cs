@@ -5,6 +5,7 @@ public class StandardPlayer : MonoBehaviour
     #region Variables
     [SerializeField] private float _speed;
     [SerializeField] private Animator _animatedPlayer;
+    [SerializeField] private GameObject _playerIcon;
 
     private Rigidbody2D _rb;
     private float _speedX;
@@ -43,6 +44,17 @@ public class StandardPlayer : MonoBehaviour
         {
             _animatedPlayer.SetBool("Run", false);
         }
+    }
+    #endregion
+    #region PublicMethods
+    public void EnableInteractionIcon() => _playerIcon.SetActive(true);
+    public void DisableInteractionIcon() => _playerIcon.SetActive(false);
+
+    public void StandByMode()
+    {
+        this.enabled = false;
+        DisableInteractionIcon();
+        _animatedPlayer.transform.localScale = new Vector3(1, 1, 1);
     }
     #endregion
 }
