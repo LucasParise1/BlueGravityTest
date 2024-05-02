@@ -127,7 +127,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 794
+        y: 608
         width: 242
         height: 217
       alignment: 0
@@ -137,8 +137,407 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68e9247c3db07184fb0ef65f0f1e5a92
+      spriteID: 96c6ddcc3e2ffaf459d177207f9049a9
       internalID: -424659074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 608
+        width: 250
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f0dce92166da34789f1d3a40a59897
+      internalID: -1346742534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 602
+        width: 211
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bc89a0b18801e4e8242386175e7ce0
+      internalID: -662090382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head4
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 595
+        width: 250
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c17a9224b0c1de4d82ba8e84bb28630
+      internalID: -600344213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 411
+        width: 228
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc08c96cfc114740ae370835f0cdbbd
+      internalID: 517420482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 415
+        width: 230
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca405480c8dbab54dab58ef37029fb4a
+      internalID: -1553667394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body3
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 414
+        width: 228
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae202580a209ef4497ce9245b6f35dd
+      internalID: -2038004560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 408
+        width: 227
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ae309cd4483c143aed0901281fd164
+      internalID: -30111260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 252
+        width: 188
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49ac07adace38948ad2db5ae4d34e35
+      internalID: 1230317761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 252
+        width: 192
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ed6745241e9ee42a1b6b29030f3eb3
+      internalID: 1822592149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 252
+        width: 190
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6467a3cbce8c842a5f97db1c3cc165
+      internalID: 480067416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants4
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 257
+        width: 191
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4233d24204373d94e9d05d1923703df2
+      internalID: 589461600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boots1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 185
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbaf76e420c51a4482a07d8bfb1a4ce
+      internalID: -1341990461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boots2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 188
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd74877e7a54a5144a1f8eedaedc07a6
+      internalID: 1414772304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boots3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 186
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b886db36d3a574ebe4a7cb64a9b345
+      internalID: 399209927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boots4
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 186
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b73f5d7b932c140bdd28543e85633b
+      internalID: -1507845294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arms1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e030f75f20087c4a989d4386967e58c
+      internalID: -1264871463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arms2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 12
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7815e3c9005f3ae448276219b1b69bc3
+      internalID: -1463313084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arms3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 20
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff3c6086f1e46b4a88b121e2424fe38
+      internalID: -2016059275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arms4
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 23
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bcf491d1282d44d8b2763bc78e0058
+      internalID: -439752518
       vertices: []
       indices: 
       edges: []
@@ -154,7 +553,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Arms1: -1264871463
+      Arms2: -1463313084
+      Arms3: -2016059275
+      Arms4: -439752518
+      Body1: 517420482
+      Body2: -1553667394
+      Body3: -2038004560
+      Body4: -30111260
+      BodyPartsIcons_12: 892111985
+      BodyPartsIcons_14: 1792884873
+      BodyPartsIcons_16: 1415621790
+      BodyPartsIcons_18: -976533550
+      BodyPartsIcons_20: 1660583328
+      BodyPartsIcons_22: 432570216
+      BodyPartsIcons_25: -1563578188
+      BodyPartsIcons_27: -1825996961
+      Boots1: -1341990461
+      Boots2: 1414772304
+      Boots3: 399209927
+      Boots4: -1507845294
       Head1: -424659074
+      Head2: -1346742534
+      Head3: -662090382
+      Head4: -600344213
+      Pants1: 1230317761
+      Pants2: 1822592149
+      Pants3: 480067416
+      Pants4: 589461600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
