@@ -35,35 +35,6 @@ public class BodyPartButton : MonoBehaviour
         CheckPurchase();
     }
 
-    private void CheckPurchase()
-    {
-        if (_buyButton)
-        {
-            if (_bodyPartSO.isPurchased)
-            {
-                _lockedStatus.SetActive(true);
-                _unlockedStatus.SetActive(false);
-            }
-            else
-            {
-                _unlockedStatus.SetActive(true);
-                _lockedStatus.SetActive(false);
-            }
-        } else
-        {
-            if (_bodyPartSO.isPurchased)
-            {
-                _lockedStatus.SetActive(false);
-                _unlockedStatus.SetActive(true);
-            }
-            else
-            {
-                _unlockedStatus.SetActive(false);
-                _lockedStatus.SetActive(true);
-            }
-        }
-    }
-
     private void CheckId()
     {
         if (_bodyPartId == "Head")
@@ -94,6 +65,36 @@ public class BodyPartButton : MonoBehaviour
     }
     #endregion
     #region PublicMethods
+    public void CheckPurchase()
+    {
+        if (_buyButton)
+        {
+            if (_bodyPartSO.isPurchased)
+            {
+                _lockedStatus.SetActive(true);
+                _unlockedStatus.SetActive(false);
+            }
+            else
+            {
+                _unlockedStatus.SetActive(true);
+                _lockedStatus.SetActive(false);
+            }
+        }
+        else
+        {
+            if (_bodyPartSO.isPurchased)
+            {
+                _lockedStatus.SetActive(false);
+                _unlockedStatus.SetActive(true);
+            }
+            else
+            {
+                _unlockedStatus.SetActive(false);
+                _lockedStatus.SetActive(true);
+            }
+        }
+    }
+
     public void BuyButton()
     {
         if (!_bodyPartSO.isPurchased && _playerStatsSO.coins >= _bodyPartSO.price)
@@ -108,6 +109,18 @@ public class BodyPartButton : MonoBehaviour
         else if (!_bodyPartSO.isPurchased && _playerStatsSO.coins < _bodyPartSO.price)
         {
             _shopkeeper.PlayNotEnoughCashSound();
+        }
+    }
+
+    public void SellButton()
+    {
+        if (_bodyPartSO.isPurchased)
+        {
+            _bodyPartSO.isPurchased = false;
+            CheckPurchase();
+            _playerStatsSO.AddCoins(_bodyPartSO.price);
+            _infoUi.UpdateCoinsText();
+            _shopkeeper.PlayThankYouSound();
         }
     }
     #endregion
