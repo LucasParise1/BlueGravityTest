@@ -4,6 +4,11 @@ using UnityEngine;
 public class PlayerStatsScriptableObject : ScriptableObject
 {
     public int coins = 0;
+    public BodyPartScriptableObject currentHeadSo;
+    public BodyPartScriptableObject currentBodySo;
+    public BodyPartScriptableObject currentGlovesSo;
+    public BodyPartScriptableObject currentPantsSo;
+    public BodyPartScriptableObject currentBootsSo;
 
     public void AddCoins(int coinsToAdd) => coins += coinsToAdd;
     public void RemoveCoins(int coinsToRemove) => coins -= coinsToRemove;

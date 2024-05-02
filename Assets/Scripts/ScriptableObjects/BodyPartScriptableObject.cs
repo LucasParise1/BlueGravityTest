@@ -4,8 +4,7 @@ using UnityEngine;
 public class BodyPartScriptableObject : ScriptableObject
 {
     public bool isPurchased;
-    public Color cardBackgroundColor;
-    public Color cardColor;
     public int price;
+    public Sprite buttonIcon;
     public Sprite[] partsSprites;
 }
