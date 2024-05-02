@@ -74,18 +74,22 @@ public class BodyPartButton : MonoBehaviour
         else if (_bodyPartId == "Body")
         {
             _playerStatsSO.currentBodySo = _bodyPartSO;
+            _customizationManager.UpdateBodySkin();
         }
         else if (_bodyPartId == "Gloves")
         {
             _playerStatsSO.currentGlovesSo = _bodyPartSO;
+            _customizationManager.UpdateGlovesSkin();
         }
         else if (_bodyPartId == "Pants")
         {
             _playerStatsSO.currentPantsSo = _bodyPartSO;
+            _customizationManager.UpdatePantsSkin();
         }
         else if (_bodyPartId == "Boots")
         {
             _playerStatsSO.currentBootsSo = _bodyPartSO;
+            _customizationManager.UpdateBootsSkin();
         }
     }
     #endregion

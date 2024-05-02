@@ -1847,10 +1847,22 @@ MonoBehaviour:
   - {fileID: 7453550163806156593}
   - {fileID: 8905439447744981998}
   - {fileID: 3378458165748443429}
-  _bodySprites: []
-  _glovesSprites: []
-  _pantsSprites: []
-  _bootsSprites: []
+  _bodySprites:
+  - {fileID: 1929038704330400123}
+  - {fileID: 6008354403118853855}
+  - {fileID: 6072665175815790809}
+  _glovesSprites:
+  - {fileID: 2811909195664003109}
+  - {fileID: 7993823552379532123}
+  - {fileID: 5806484025970699187}
+  - {fileID: 4541594605962990677}
+  _pantsSprites:
+  - {fileID: 5223743595871500959}
+  - {fileID: 8886606000605751170}
+  - {fileID: 6627745125463382307}
+  _bootsSprites:
+  - {fileID: 8146890619559208802}
+  - {fileID: 408611408865618481}
 --- !u!61 &3547616583754237672
 BoxCollider2D:
   m_ObjectHideFlags: 0
