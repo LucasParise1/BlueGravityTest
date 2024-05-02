@@ -13,3 +13,13 @@ MonoBehaviour:
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
   coins: 0
+  currentHeadSo: {fileID: 0}
+  currentBodySo: {fileID: 0}
+  currentGlovesSo: {fileID: 0}
+  currentPantsSo: {fileID: 0}
+  currentBootsSo: {fileID: 0}
+  defaultHeadSo: {fileID: 11400000, guid: a7e42be12cf860d41bea80fcae7a16ad, type: 2}
+  defaultBodySo: {fileID: 11400000, guid: 860df39fb48e4724686474d389117dec, type: 2}
+  defaultGlovesSo: {fileID: 11400000, guid: ad54d7c12da6a4e4b8e81663bf663b90, type: 2}
+  defaultPantsSo: {fileID: 11400000, guid: 5bc5fab6edc5da743bf686ea9627120b, type: 2}
+  defaultBootsSo: {fileID: 11400000, guid: 5f5ce714f0bb335428b34af0a831543d, type: 2}

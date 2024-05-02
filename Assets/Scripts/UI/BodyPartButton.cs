@@ -63,6 +63,35 @@ public class BodyPartButton : MonoBehaviour
             _customizationManager.UpdateBootsSkin();
         }
     }
+
+    private void CheckCurrentSkin()
+    {
+        if (_bodyPartId == "Head" && _playerStatsSO.currentHeadSo == _bodyPartSO)
+        {
+            _playerStatsSO.currentHeadSo = null;
+            _customizationManager.ResetHeadSkin();
+        }
+        else if (_bodyPartId == "Body" && _playerStatsSO.currentBodySo == _bodyPartSO)
+        {
+            _playerStatsSO.currentBodySo = null;
+            _customizationManager.ResetBodySkin();
+        }
+        else if (_bodyPartId == "Gloves" && _playerStatsSO.currentGlovesSo == _bodyPartSO)
+        {
+            _playerStatsSO.currentGlovesSo = null;
+            _customizationManager.ResetGlovesSkin();
+        }
+        else if (_bodyPartId == "Pants" && _playerStatsSO.currentPantsSo == _bodyPartSO)
+        {
+            _playerStatsSO.currentPantsSo = null;
+            _customizationManager.ResetPantsSkin();
+        }
+        else if (_bodyPartId == "Boots" && _playerStatsSO.currentBootsSo == _bodyPartSO)
+        {
+            _playerStatsSO.currentBootsSo = null;
+            _customizationManager.ResetBootsSkin();
+        }
+    }
     #endregion
     #region PublicMethods
     public void CheckPurchase()
@@ -118,9 +147,18 @@ public class BodyPartButton : MonoBehaviour
         {
             _bodyPartSO.isPurchased = false;
             CheckPurchase();
+            CheckCurrentSkin();
             _playerStatsSO.AddCoins(_bodyPartSO.price);
             _infoUi.UpdateCoinsText();
             _shopkeeper.PlayThankYouSound();
+        }
+    }
+
+    public void WearSkinButton()
+    {
+        if (_bodyPartSO.isPurchased)
+        {
+            CheckId();
         }
     }
     #endregion

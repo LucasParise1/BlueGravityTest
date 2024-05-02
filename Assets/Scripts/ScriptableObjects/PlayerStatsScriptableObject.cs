@@ -10,6 +10,13 @@ public class PlayerStatsScriptableObject : ScriptableObject
     public BodyPartScriptableObject currentPantsSo;
     public BodyPartScriptableObject currentBootsSo;
 
+    [Header("Default Skin")]
+    public BodyPartScriptableObject defaultHeadSo;
+    public BodyPartScriptableObject defaultBodySo;
+    public BodyPartScriptableObject defaultGlovesSo;
+    public BodyPartScriptableObject defaultPantsSo;
+    public BodyPartScriptableObject defaultBootsSo;
+
     public void AddCoins(int coinsToAdd) => coins += coinsToAdd;
     public void RemoveCoins(int coinsToRemove) => coins -= coinsToRemove;
     public void ResetCoins() => coins = 0;

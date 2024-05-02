@@ -14,6 +14,7 @@ public class BaseGameManager : MonoBehaviour
 
     [Header("Canvas")]
     [SerializeField] private GameObject _storeCanvas;
+    [SerializeField] private GameObject _customizationCanvas;
     #endregion
     #region Lifecycle
     private void Start()
@@ -24,6 +25,7 @@ public class BaseGameManager : MonoBehaviour
     #endregion
     #region PrivateMethods
     private void ActivateStoreCanvas() => _storeCanvas.SetActive(true);
+    private void ActivateCustomizationCanvas() => _customizationCanvas.SetActive(true);
 
     private void ResetAllBodyParts()
     {
@@ -34,6 +36,13 @@ public class BaseGameManager : MonoBehaviour
     }
     #endregion
     #region PublicMethods
+    public void PlayerOnWardrobe()
+    {
+        _gameplayCamera.enabled = false;
+        _customizationCamera.enabled = true;
+        Invoke(nameof(ActivateCustomizationCanvas), 1);
+    }
+
     public void PlayerOnStore()
     {
         _gameplayCamera.enabled = false;
