@@ -58,9 +58,6 @@ public class StandardPlayer : MonoBehaviour
         DisableInteractionIcon();
         _animatedPlayer.SetBool("Run", false);
         _animatedPlayer.transform.localScale = new Vector3(1, 1, 1);
-        speed = 0;
     }
-
-    public void ResumeGameplay() => speed = 25;
     #endregion
 }

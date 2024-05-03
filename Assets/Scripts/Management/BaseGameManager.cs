@@ -1,5 +1,6 @@
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class BaseGameManager : MonoBehaviour
 {
@@ -21,6 +22,14 @@ public class BaseGameManager : MonoBehaviour
     {
         _playerStatsSO.ResetCoins();
         ResetAllBodyParts();
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Cancel"))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
     #endregion
     #region PrivateMethods
